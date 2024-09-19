@@ -21,7 +21,7 @@ int main() {
     exit(1);
   } 
 
-  printf("%d! = %d\n", number, factorial(number));
+  printf("%d! = %llu\n", number, factorial(number));
 
   return 0;
 }
